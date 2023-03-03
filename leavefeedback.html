@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Leave Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Create Leave Feedback</a></li>
+        <li><a href="#">Completed Leave Feedback</a></li>
+      </ul>
+    </nav>
+    <div class="card">
+      <h2>I want video feedback of this Airbnb:</h2>
+      <form action="#">
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url">
+        <button type="submit">Leave Feedback</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 20px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.card form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.card form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
