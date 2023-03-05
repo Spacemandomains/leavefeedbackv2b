@@ -117,5 +117,7 @@ body {
 #feedback-form {
   width: 100%;
   max-width: 800px;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 160px); /* adjust this value as needed */
+  margin-top: 50px; /* add this line to create space between the nav bar and iframe */
 }
+
