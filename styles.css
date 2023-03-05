@@ -43,7 +43,7 @@ nav {
 
 .navbar-link {
   font-size: 16px;
-  color: white; /* change this value to the desired color */
+  color: white !important; /* change this value to the desired color */
   text-decoration: none;
   margin-left: 24px;
 }
