@@ -11,11 +11,17 @@ nav {
   left: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly; /* add this line to space the links evenly */
   align-items: center;
   height: 64px;
   background-color: white;
   border-bottom: 1px solid #e6e6e6;
+
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
 }
 
 .navbar {
@@ -118,6 +124,6 @@ body {
   width: 100%;
   max-width: 800px;
   height: calc(100vh - 160px); /* adjust this value as needed */
-  margin-top: 50px; /* add this line to create space between the nav bar and iframe */
+  margin-top: 100px; /* add this line to create space between the nav bar and iframe */
 }
 
