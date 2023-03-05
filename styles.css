@@ -5,6 +5,13 @@ body {
 }
 
 /* Navbar styles */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
