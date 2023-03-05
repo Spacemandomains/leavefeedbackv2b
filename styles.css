@@ -48,7 +48,7 @@ nav a {
 
 .navbar-link {
   font-size: 16px;
-  color: #484848;
+  color: black; /* add this line to change the color of the links */
   text-decoration: none;
   margin-left: 24px;
 }
@@ -126,4 +126,3 @@ body {
   height: calc(100vh - 160px); /* adjust this value as needed */
   margin-top: 100px; /* add this line to create space between the nav bar and iframe */
 }
-
