@@ -14,7 +14,7 @@ nav {
   justify-content: space-evenly; /* add this line to space the links evenly */
   align-items: center;
   height: 64px;
-  background-color: white;
+  background-color: #ffffff;
   border-bottom: 1px solid #e6e6e6;
 
 }
