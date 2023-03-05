@@ -115,6 +115,12 @@ nav {
   text-align: center;
 }
 
+/* Div */
+div {
+  margin-top: 80px; /* Add space between the Nav bar and the content */
+  margin-left: 24px; /* Align the content to the left */
+}
+
 /* CSS to center the iframe */
 body {
   display: flex;
