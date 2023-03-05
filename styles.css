@@ -6,13 +6,16 @@ body {
 
 /* Navbar styles */
 nav {
+  position: fixed;
   top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100%;
 }
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 64px;
   background-color: white;
@@ -105,9 +108,9 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 #feedback-form {
   width: 100%;
   max-width: 800px;
   height: 100%;
 }
+
