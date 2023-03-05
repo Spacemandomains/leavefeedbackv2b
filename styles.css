@@ -107,6 +107,21 @@ nav {
   color: #ff5a5f;
 }
 
+/* Card */
+.card {
+  max-width: 600px;
+  margin: 100px auto 0 auto;
+  padding: 24px;
+  text-align: center;
+}
+
+.card {
+  max-width: 600px;
+  margin: 100px auto 0 auto;
+  padding: 24px;
+  text-align: center;
+}
+
 /* CSS to center the iframe */
 body {
   display: flex;
