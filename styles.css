@@ -48,7 +48,7 @@ nav a {
 
 .navbar-link {
   font-size: 16px;
-  color: black; /* add this line to change the color of the links */
+  color: #000000; /* add this line to change the color of the links */
   text-decoration: none;
   margin-left: 24px;
 }
