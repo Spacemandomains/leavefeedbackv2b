@@ -38,12 +38,12 @@ nav {
 
 .navbar-brand:hover {
   text-decoration: none;
-  color: #484848;
+  color: #ffffff;
 }
 
 .navbar-link {
   font-size: 16px;
-  color: #ffffff !important; /* change this line to black */
+  color: #ffffff !important; /* change this line to white */
   text-decoration: none;
   margin-left: 24px;
 }
