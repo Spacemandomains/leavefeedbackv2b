@@ -16,7 +16,6 @@ nav {
   height: 64px;
   background-color: #ffffff;
   border-bottom: 1px solid #e6e6e6;
-
 }
 
 .navbar {
@@ -43,7 +42,7 @@ nav {
 
 .navbar-link {
   font-size: 16px;
-  color: #000000; /* add this line to change the color of the links */
+  color: #000000; /* change this line to black */
   text-decoration: none;
   margin-left: 24px;
 }
