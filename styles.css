@@ -14,14 +14,14 @@ nav {
   justify-content: space-evenly; /* add this line to space the links evenly */
   align-items: center;
   height: 64px;
-  background-color: black;
+  background-color: white;
   Text color: black;
   border-bottom: 1px solid #e6e6e6;
 
 }
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 0 10px;
 }
 
