@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: ##00A699 !important;
+  background-color: ##00A699;
 }
 
 /* Navbar styles */
@@ -43,7 +43,7 @@ nav {
 
 .navbar-link {
   font-size: 16px;
-  color: white !important; /* change this value to the desired color */
+  color: white; /* change this value to the desired color */
   text-decoration: none;
   margin-left: 24px;
 }
