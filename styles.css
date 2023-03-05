@@ -6,15 +6,13 @@ body {
 
 /* Navbar styles */
 nav {
-  position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 64px;
   background-color: white;
@@ -99,15 +97,17 @@ nav {
 .footer-link:hover {
   color: #ff5a5f;
 }
+
 /* CSS to center the iframe */
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      #feedback-form {
-        width: 100%;
-        max-width: 800px;
-        height: 100%;
-      }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#feedback-form {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+}
