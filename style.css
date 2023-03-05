@@ -136,3 +136,15 @@ footer {
     padding: 20px;
   }
 }
+/* CSS to center the iframe */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      #feedback-form {
+        width: 100%;
+        max-width: 800px;
+        height: 100%;
+      }
